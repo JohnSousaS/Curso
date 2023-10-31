@@ -1,0 +1,14 @@
+// mudando o valor de um atributo
+const pessoa = {
+    nome: 'Ana',
+    idade: 15,
+    endereco: {
+        logradouro: 'Rua ABC',
+        numero: 1000
+    }
+}
+
+pessoa ['nome'] = 'Joao' // com array
+pessoa.nome = 'Joao' // com notação ponto
+console.log(pessoa)
+
