@@ -1,6 +1,7 @@
 // Função em JS é First-Class Object (Citizens)
 // Higher-order function
-
+// Retorno implicito -> quando a função não possui nenhum comando
+console.log(area(2))
 // Função literal
 function fun1() {}
 

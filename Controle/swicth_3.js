@@ -1,17 +1,19 @@
-const vendedor = function(venderCarro) {
-    switch(venderCarro) {
-        case 'Carro Up':
-        console.log('Compra efetuada com sucesso')
-        break
-    case 'Moto':
-    case 'Sedan':
-        console.log('Tem certeza que não prefere este modelo?')
-        break
-    case 'Amarok':
-        console.log('Nós não trabalhamos com esse modelo')
+const vendedor = function(VenderCarro) {
+    switch(VenderCarro) {
+        case 'Hatch':
+            console.log('Compra efetuada com sucesso!!!')
+            break
+        case 'Sedan':
+        case 'Motocicleta':
+        case 'Caminhonete':
+            console.log('Tem certeza que não prefere este modelo?')
+            break
+        case 'Conversivel':
+            console.log('Nós não trabalhamos com este modelo!')
     }
 }
-
-vendedor('Moto')
 vendedor('Sedan')
-vendedor('Carro Up')
+vendedor('Motocicleta')
+vendedor('Caminhonete')
+vendedor('Conversivel')
+vendedor('Hatch')
