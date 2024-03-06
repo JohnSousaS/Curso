@@ -22,7 +22,7 @@ new pessoa*/
 new pessoa*/ 
 
 //agora usando o self
-
+// o self vai anconrar o this com uma variavel global, porque o this pode sempre variar se estiver sozinho
 function pessoa() {
     this.idade = 0
 
